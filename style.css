@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  background: #f7f7f7;
+}
+
+.hero {
+  position: relative;
+  height: 300vh;
+  overflow: hidden;
+  background: #2c001e;
+}
+
+.hero div {
+  position: absolute;
+}
+
+.planet {
+  border-radius: 50%;
+  border: 3px solid #aea79f;
+}
+
+.big {
+  top: 140vh;
+  left: -300px;
+  width: 700px;
+  height: 700px;
+  background: #5e2750;
+}
+
+.orange {
+  top: 10vh;
+  right: 12%;
+  width: 240px;
+  height: 240px;
+  background: #e95420;
+}
+
+.ring {
+  top: 77px;
+  left: -83px;
+  width: 400px;
+  height: 80px;
+  transform: rotate(-20deg);
+}
+
+.orbit {
+  top: 110vh;
+  left: 8%;
+  width: 500px;
+  height: 500px;
+  border-style: dashed;
+}
+
+.blue {
+  top: 147px;
+  left: 147px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#77216f 42%, #aea79f 42%, #aea79f 58%, #77216f 58%);
+}
+
+.moon {
+  top: -16px;
+  left: 232px;
+  width: 30px;
+  height: 30px;
+  background: #f7f7f7;
+}
+
+.yellow {
+  top: 170vh;
+  right: 15%;
+  width: 130px;
+  height: 130px;
+  background: #aea79f;
+}
+
+.sparkle {
+  color: #e95420;
+  font-size: 2rem;
+}
+
+h1 {
+  position: absolute;
+  top: 32vh;
+  width: 100%;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #f7f7f7;
+}
+
+h1 span {
+  color: #e95420;
+}
+
+.horizon {
+  bottom: -90vh;
+  left: -30%;
+  width: 160%;
+  height: 100vh;
+  background: #f7f7f7;
+  border-radius: 50% 50% 0 0;
+}
+
+.content {
+  padding: 4rem 20%;
+  color: #333333;
+  line-height: 1.8;
+}
+
+.content h2 {
+  color: #e95420;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
